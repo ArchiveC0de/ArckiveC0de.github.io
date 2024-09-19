@@ -1,0 +1,128 @@
+@font-face{
+    font-family : "작명~~";
+    src : url(../font/laundrygothic_font_Regular.woff)
+}
+
+div, input, textarea{
+    box-sizing : border-box;
+    
+    position : relative;
+    border-radius : 5px;
+}
+
+body{
+   margin : 0;
+   font-family :
+}
+
+html{
+    line-height : 1.15;
+}
+
+.tr-bottom {
+    border-bottom : 1px solid black;
+    width : 100%;
+}
+
+.box-container{
+    width : 750px;
+    max-height: 600px;
+}
+
+table{
+    border-collapse : collapse;
+    
+}
+
+.form-background{
+
+    padding : 40px;
+    background-color :azure;
+}
+
+.form-innerbackground{
+    background-color : white;
+    padding : 20px;
+    width : 100%;
+    max-width : 750px;
+}
+
+.w-15{
+    width : 15%;
+}
+
+.h-30{
+    height : 5%;   
+}
+.img-product{
+    width : 100%;
+    display : block;
+    margin : left;
+}
+
+.name-itme{
+    width : 
+}
+
+.row-margin{
+    display : block;
+    margin-top : 5px;
+    margin-bottom : 5px;
+   font-family :inherit;
+}
+
+.font-productname{
+    vertical-align: top;
+    margin-top:0px; 
+    position : relative;
+    bottom : 15px;
+        
+}
+
+.box-payment {
+    border-radius : 5px;
+    padding : 20px;
+    display : block;
+    margin-left : auto;
+    background-color : darkblue;
+    color : white;
+}
+
+.btn{
+    padding : 15px;
+    font-size : 20px;
+    border : none;
+    border-radius : 10px;
+    background-color : coral;
+    color : white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color : chocolate;
+}
+
+.btn:focus{
+    background-color : brown;
+}
+
+.btn:active{
+    background-color : grey;
+    border: 2px solid black;
+}
+
+.input-test {
+    font-size : 20px;
+}
+
+.input-test:focus{
+    border-bottom: 2px solid red;
+}
+
+.custom-link{
+    text-decoration: none;
+}
+
+.custom-link:link{
+   color : skyblue;
+}

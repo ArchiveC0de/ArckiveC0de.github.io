@@ -1,0 +1,71 @@
+inpuut, div, textarea{
+    box-sizing : border-box;
+   
+}
+
+bodby{
+    margin : 0px;
+    
+}
+
+html{
+    line-height :1.15;
+}
+
+.box-container{
+    width : 400px;
+    height : 600px;
+}
+
+.font-margin{
+    
+} 
+
+.form-background{
+    background-color : black;
+    padding : 30px;
+}
+
+.form-white{
+    background-color : white;
+    padding : 30px;
+    width : 80%;
+    max-width : 600px;
+    margin : auto;
+}
+
+.form-input{
+    width : 100%; 
+    padding :10px;
+    font-size : 20px;
+    border : 1px solid black;
+    border-radius : 5px;
+}
+.w-50 {
+    width : 50%;
+    float : left;
+    padding : 10px;
+}
+
+.w-100 {
+    width : 100%;
+    padding : 10px;
+}
+
+.form-long {
+    height = 150px;
+}
+
+.yellow-button {
+    padding : 10px;
+    display : block;
+    margin-left : auto; 
+}
+
+td, th {
+    border : 1px solid black;
+}
+
+table {
+   border-collapse : collapse;
+}

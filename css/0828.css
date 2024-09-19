@@ -1,0 +1,201 @@
+.nameText
+{
+    font-size : 30px;
+    font-weight : 300px;
+    letter-spacing : 10px;
+    font-family : 'gulim';
+    text-align: center;
+    color : blue;    
+}
+
+.imageCat
+{
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    width : 300px;
+}
+
+.introducionText
+{
+    text-align : center;
+}
+
+.highLight
+{
+    color : red;
+}
+
+.box
+{
+    width : 200px;
+    
+    background-color:cadetblue;
+    margin : 10 10 10 10;
+    padding :50px;
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    border-radius : 10px;
+    box-shadow: 5px 5px black ;
+    
+    font size: 20px;
+    font-family: 'gulim';
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.container 
+ {
+    margin-top : 20px;
+    width : 800px;
+/*
+    height : 300px;
+    border : 1px solid black;
+    display : block;
+    margin-right : auto;
+    margin-left : auto;
+*/
+}
+
+.box-top {
+    width : 98%;
+    height : 15%;
+    margin : 5 20 5 10;
+    background-color: aqua;
+}
+
+.box-left {
+    width : 20%;
+    height : 65%;
+    margin : 5 10 5 10;
+    float : left;
+    background-color: cornflowerblue
+}
+
+.box-right {
+    width: 76%;
+    height: 65%;
+    margin : 5 ;
+    float : left;
+    background-color : coral;
+    
+}
+
+.footer {
+    width : 98%;
+    height : 17%;
+    margin : 5 5 5 10;
+    background-color: darkgray;
+    clear: both;
+    float : none;
+        
+}
+
+.container2 {
+    width : 800;
+    height : 300;
+    border : 1px solid black;
+    display : block;
+    margin-right : auto;
+    margin-left : auto;
+}
+
+.Hbox-right {
+    width : 35%;
+    height : 300px;
+    background-color :red;
+    float : right;
+}
+
+.Hbox-left
+{
+    width : 65%;
+    height : 300px;
+    
+    float : right;
+    
+    
+}
+
+.imagestyle
+{
+   width : 95%;
+   height: 270px;
+   display : block;
+   margin-right : auto;
+   margin-left : auto;
+   margin-bottom: 10px;
+   margin-top : 10px;  
+}
+
+.profile {
+    border : 1px solid black;
+    width : 95%;
+    height : 20%;
+    display:  block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+
+.imageprofile
+{
+  width : 10%;                         height : 90%;
+  margin-top : 3px;
+  margin-left: 3px;    
+}
+
+.imageplus {
+    width : 20%;
+    height: 20%;
+    margin-left : 78%;
+    margin-top : -70;
+}
+
+
+.blog-content {
+    width : 80%;
+    height : 200px;
+    background : #eee;
+    float: left;
+}           
+
+.blog-img {
+    width : 20%;
+    height : 200px;
+    background : yellow; 
+    float: left;
+}
+
+.blog-profile
+{
+    width : 50px;
+    display : block;
+    float : left;
+}
+
+.blog-name {
+    float : left;
+}
+
+.nabar a {
+    display : inline-block;
+    font-size : 36px;
+        
+}
+
+.div{
+    box-sizing : border-box;
+}
+
+.body{
+    margin : 0;
+}
+
+.html{
+    line-height : 1.15;
+}

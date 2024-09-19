@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.main-background {
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    height: 550px;
+    padding: 20px;
+    color: white;  
+    position: relative;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin-top: auto;
+    
+}
+
+.main-text {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-iphone{
+    width: 400px;
+    float: right;
+    margin-top:95px;
+}
+
+.btn{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family:'nanumsquare';
+    font-weight: 300px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-black{
+    background: #444;
+    color: white;
+}
+
+.btn-black:hover {
+   background: #499add;
+    color: yellow;
+}
+
+.btn-blck:active {
+    background: #4e61c0;
+    color: aqua;
+        
+}
+
+
+.service {
+    background-color:#4e61c0;
+    width: 100%;   
+    color: white;
+    text-align: center;
+    padding: 60px 30px 50px 30px;
+  
+}
+
+
+.service-items {
+    display: flex;
+}
+
+.service-items div{
+    width: 25%;
+}
+
+.service h5{
+    margin-bottom: 0px;
+}
+.service-icon {
+  background: white;
+  color: #4e61c0;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    box-sizing: border-box;
+    padding:15px;
+}
+
+.service-icon:hover {
+animation: fa-bounce 1s infinite;
+}
+
+.footer-icon{
+    background: #4e61c0;
+    color:white;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    box-sizing: border-box;
+    padding:15px;
+    margin:auto;
+    margin-top: 10px;
+    position:relative;
+}
+
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.portfolio-container {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.portpolio-item1 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(/img/portfolio-1.jpg) ;    
+    background-size: cover;
+    position:relative;
+}
+
+.portfolio-text {
+    color:white;
+    padding: 50px;
+    width:100%
+}
+
+.portpolio-item2 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image:url(/img/portfolio-2.jpg);
+    background-size: cover;
+    position:relative;
+}
+
+.portpolio-item3 {
+  
+    float:left;
+    width: 50%;
+    height:350px;
+    background-image:url(/img/portfolio-3.jpg);
+    background-size: cover; 
+    background-color:rgba(0,0,0,0.3);
+    position:relative;
+}
+
+.portpolio-item4 {
+     position:relative;
+    float:left;
+    width:50%;
+    height:350px;
+    background-image:url(/img/portfolio-4.jpg);
+      background-size: cover; 
+    overflow: hidden;
+    
+}
+
+.white-box {
+    position:absolute;
+    width : 100%;
+    height : 100%;
+    z-index : 2;
+    border : 0px solid white;
+    transition:all 1s;
+    background-color: rgba(0,0,0,0.0)
+}
+
+.white-box:hover {
+    border : 30px solid white;
+    background-color: rgba(0,0,0,0.3)
+}
+ 
+.black_box{
+    position:absolute;
+    width : 100%;
+    height : 100%;
+    z-index : 2;
+    background-color: rgba(0,0,0,0.0);
+    transition:all 1s;
+
+}
+
+.black_box:hover {
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+.footer-icon:hover i{
+  animation: fa-bounce 1s infinite;
+}
+
+.portpolio-item4:hover .black-scroll{
+    background-color: rgba(0,0,0,0.7);
+    top:50%;
+}
+
+.black-scroll{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.3);
+    top:100%;
+    transition: all 1s;
+}
+
+@media screen and (max-width:992px){
+    .main-iphone{
+        width: 260px;
+        float:none;
+        margin-top: 37px;
+        position:absolute;
+        bottom:0px;
+        left: 50%;
+     transform:translate(-50%);
+    }
+    
+    .service-items{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .service-items div{
+        width: 100%;
+    }
+    
+    .portpolio-item1{
+    float: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    }
+    
+    .portpolio-item2{
+    float: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    }
+    
+    .portpolio-item3{
+    float: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+        
+        
+    }
+    
+   .portpolio-item4{
+    float: none;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    }
+    
+
+}
+.footer-bg {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 60px 30px 50px 30px;
+}
+
+.footer-container {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-content {
+    float: left;
+}
+
+.footer-icon {
+    padding: 15px;
+}    
+
+.footer-items {
+    display:flext
+}
+
+.footer-item {
+    display: flex;
+}
+
+.icon-animation {
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:3;
+    
+    
+        
+}
